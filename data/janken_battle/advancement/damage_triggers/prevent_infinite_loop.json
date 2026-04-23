@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "janken_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": ["janken_battle:no_immunity"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "janken_battle:on_damage_loop_prevent"
+  }
+}

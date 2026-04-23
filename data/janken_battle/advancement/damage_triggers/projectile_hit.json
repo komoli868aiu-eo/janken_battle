@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "projectile_hit": {
+      "trigger": "minecraft:projectile_hit",
+      "conditions": {
+        "projectile": {
+          "type": "#minecraft:arrows"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "janken_battle:on_projectile_hit"
+  }
+}

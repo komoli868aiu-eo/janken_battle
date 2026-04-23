@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "melee": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [],
+            "direct_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "janken_battle:on_melee_attack"
+  }
+}

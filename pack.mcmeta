@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "supported_formats": [61, 63],
+    "description": "Janken Battle - 三すくみダメージシステム + 汎用兵士"
+  }
+}
